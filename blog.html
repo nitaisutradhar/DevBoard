@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link rel="stylesheet" href="output.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="font-poppins bg-[#F4F7FF]">
+    <header class="max-w-17/20 bg-white mx-auto my-5 p-5 rounded-2xl">
+        <nav class="flex justify-between items-center">
+            <!-- Left Nav -->
+            <div class="flex items-center gap-1">
+                <img class="w-1/5" src="assets/logo.png">
+                <h1 class="text-4xl">Dev<span class="font-bold">Board</span></h1>
+            </div>
+            <!-- Right Nav -->
+            <button id="back-desk" onclick="(function () { window.location.href = 'index.html' })()" class="cursor-pointer text-white px-5 py-2.5 bg-[#3752FD] rounded-lg">Back to Desk</button>
+        </nav>
+    </header>
+    <main class="max-w-17/20 mx-auto my-5">
+        <h1 class="text-2xl font-bold text-center">Blogs</h1>
+        <!-- Blog Cards -->
+         <div class="my-5 space-y-2.5">
+            <!-- Card 1 -->
+             <div class="bg-white rounded-2xl">
+                <h1 class="text-xl font-bold p-5">Question-1: What are the different ways to select an element in the DOM?</h1>
+                <hr class="border-dashed text-[rgba(55,82,253,0.20)]">
+                <p class="p-5 text-gray-500">To select an element in the DOM, we can use methods like getElementById(byID), getElementsByClassName (by class name), getElementsByTagName (by tag name), querySelector (using a CSS selector to select a single element), querySelectorAll (using a CSS selector to select multiple elements) etc.</p>
+             </div>
+            <!-- Card 2 -->
+             <div class="bg-white rounded-2xl">
+                <h1 class="text-xl font-bold p-5">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h1>
+                <hr class="border-dashed text-[rgba(55,82,253,0.20)]">
+                <p class="p-5 text-gray-500">
+                    The innerHTML property gets or sets the contents including HTML tags of the element.
+                    innerText returns text contents of the element without html tags.
+                    textContent returns all text within an element, including hidden text.
+                </p>
+             </div>
+            <!-- Card 3 -->
+             <div class="bg-white rounded-2xl">
+                <h1 class="text-xl font-bold p-5">Question-3: What is event delegation in the DOM?</h1>
+                <hr class="border-dashed text-[rgba(55,82,253,0.20)]">
+                <p class="p-5 text-gray-500">Event delegation is a technique in JavaScipt where a single event listener is attached to a parent element instead of attaching event listeners to multiple child elements. When an event occurs on a child element, the event bubbles up the DOM tree, and the parent element's event listener handles the event based on the target element.</p>
+             </div>
+            <!-- Card 4 -->
+             <div class="bg-white rounded-2xl">
+                <h1 class="text-xl font-bold p-5">Question-4: What is event bubbling in the DOM?</h1>
+                <hr class="border-dashed text-[rgba(55,82,253,0.20)]">
+                <p class="p-5 text-gray-500">Event Bubbling refers to the mechanism where an event occurs on a specific element, it propagates upwards through the DOM hierarchy, triggering event handlers on its parent elements until it reaches the root of the document.</p>
+             </div>
+            <!-- Card 5 -->
+             <div class="bg-white rounded-2xl">
+                <h1 class="text-xl font-bold p-5">Question-5: How do you create, add, and remove elements using JavaScript?</h1>
+                <hr class="border-dashed text-[rgba(55,82,253,0.20)]">
+                <p class="p-5 text-gray-500">To create an element, we can use createElement(). Then to add an element we use appendChild() or set innerHTML property of a parent element and to remove element we will set the innerHTML property to Null or element.remove() method removes an element from the document.</p>
+             </div>
+         </div>
+    </main>
+</body>
+</html>
