@@ -9,4 +9,4 @@
   * After clicking on the 6 Complete buttons, another alert will show.<br>
   * Clicking on the "Discover Something New Today" card will open a new blog page. This page contains some JavaScript interview related questions and answers. And also added a button to go back to the home page.<br>
   * Clicking on the Color pallate button background color will change randomly. <br>
-<a href="https://nitaisutradhar.github.io/assignment-5/index.html" target="_blank">live web link</a><br>
+<a href="https://nitaisutradhar.github.io/DevBoard/" target="_blank">Live website link</a><br>
