@@ -1,12 +1,50 @@
-<h1>DevBoard</h1>
+# DevBoard - Task Management Dashboard 🚀
 
-<h3><b>Features</b></h3>
-  * If you click any complete button, The button you click on will be disabled and an alert will be shown.<br>
-  * When a card button is clicked, the title of the card and the click time will be added to the activity log.<br>
-  * Clicking the Clear History button will clear all activity log history.<br>
-  * Each time you click on the button, the task assignment number will decrease by one from 6 and increase by one from 23.<br>
-  * Always show current date and time.<br>
-  * After clicking on the 6 Complete buttons, another alert will show.<br>
-  * Clicking on the "Discover Something New Today" card will open a new blog page. This page contains some JavaScript interview related questions and answers. And also added a button to go back to the home page.<br>
-  * Clicking on the Color pallate button background color will change randomly. <br>
+DevBoard is a simple and interactive task management dashboard that helps you manage and monitor tasks effectively. Built with HTML, CSS, and JavaScript, this project simulates a developer's task board with logging, counters, and dynamic features.
+
+## 🌟 Features
+
+- ✅ **Task Completion**  
+  Each task card has a "Complete" button. Clicking the button will:
+  - Mark the task as completed.
+  - Disable the button and show an alert.
+  - Add the task title and click time to the activity log.
+  - Decrease the "Task Assigned" count (starting from 6).
+  - Increase another counter (starting from 23).
+  - Show a final alert when all 6 tasks are completed.
+
+- 🗂 **Activity Log**  
+  Logs every completed task with the task title and timestamp.  
+  Option to **Clear History** and reset the log.
+
+- 📅 **Current Date & Time**  
+  Real-time display of the current date and time on the dashboard.
+
+- 📚 **Blog Page**  
+  Clicking on the "Discover Something New Today!" card will take you to a blog page with JavaScript interview questions and answers. A button is provided to navigate back to the dashboard.
+
+- 🎨 **Dynamic Theme**  
+  Clicking the color palette icon will change the dashboard background to a random color.
+
+---
+
+## 🖥️ Preview
+
+![DevBoard Preview](./preview.jpeg)
+
+---
+
+## 🛠️ Tech Stack
+- HTML
+- CSS
+- JavaScript (Vanilla)
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/devboard.git
+
 <a href="https://nitaisutradhar.github.io/DevBoard/" target="_blank">Live website link</a><br>
