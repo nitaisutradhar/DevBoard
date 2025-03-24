@@ -28,6 +28,21 @@ DevBoard is a simple and interactive task management dashboard that helps you ma
 
 ---
 
+## 📖 Blog Page (JS Interview Q&A)
+
+The **Blog Page** consists of a list of frequently asked JavaScript DOM-related interview questions and answers.
+
+### Topics covered:
+1. Different ways to select an element in the DOM.
+2. Difference between `innerHTML`, `innerText`, and `textContent`.
+3. Explanation of Event Delegation in the DOM.
+4. Explanation of Event Bubbling in the DOM.
+5. Methods to create, add, and remove elements using JavaScript.
+
+The page is designed to be simple and easy to read, and includes a "Back to Desk" button to return to the main dashboard.
+
+---
+
 ## 🖥️ Preview
 
 ![DevBoard Preview](./preview.jpeg)
@@ -41,10 +56,14 @@ DevBoard is a simple and interactive task management dashboard that helps you ma
 
 ---
 
+## Live Demo
+👉 [Click Here](https://nitaisutradhar.github.io/DevBoard/)
+
+---
+
 ## 🚀 How to Run Locally
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/devboard.git
 
-<a href="https://nitaisutradhar.github.io/DevBoard/" target="_blank">Live website link</a><br>
