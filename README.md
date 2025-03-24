@@ -45,7 +45,8 @@ The page is designed to be simple and easy to read, and includes a "Back to Desk
 
 ## 🖥️ Preview
 
-![DevBoard Preview](./preview.jpeg)
+![DevBoard Preview](./assets/preview1.jpg)
+![BlogPage Preview](./assets/preview2.jpg)
 
 ---
 
